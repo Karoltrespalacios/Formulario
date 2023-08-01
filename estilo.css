@@ -1,0 +1,61 @@
+/*
+------------INDEX-------------
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower';
+}
+
+.header{
+    position: fixed;
+    top: 10;
+    left: 15;
+    width: 100%;
+    padding: 20px 10%;
+    background: #727878;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    }
+    .logo{
+        font-size: 25px;
+        color: rgb(255, 253, 253);   
+        text-decoration: none;
+        font-weight: 700;
+    }
+    table{
+        margin: auto;
+        margin-top: -5px;
+        max-width: 900px;
+        background-color: rgb(127, 129, 129);
+        align-items: center;
+        height: 59vh;
+    }
+
+  
+
+    .container img{
+        width: 30%;
+
+    }
+    body{
+        background-image: url(https://i.pinimg.com/564x/2e/52/a1/2e52a11efe043f28c332f916da2d6db0.jpg); 
+    }
+   
+    h1{
+    
+        position: fixed;
+        top: 10;
+        left: 15;
+        width: 100%;
+        padding: 20px 10%;
+        background: #8a9090;
+        display: center ;
+        justify-content: space-between;
+        text-align: center;
+        z-index: 100;
+    }
